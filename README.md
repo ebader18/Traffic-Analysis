@@ -1,1 +1,15 @@
 # Traffic-Analysis
+
+<br />
+
+The goal of this project is to estimate the speed of vehicles in neighborhood.
+<br />
+YOLO v11 is used to track and segment cars, followed by computing the rotation and translation matrices corresponding to the motion of the vehicle frame after frame.
+SIFT is used to detect features and compute its descriptors, followed by matching features using FLANN.
+The fundamental and essential matrices are then computed, to finally get the translation and rotation matrices.
+
+<br />
+
+Images & videos [GDrive](https://drive.google.com/drive/folders/1RKbULTZWH2JVe--sqtOBYgFinvriiRry)
+
+<br />
